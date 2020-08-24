@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sho Portofolio</title>
+  <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div id="header-nav">
+      <div class="container">
+        <div id="nav-logo">Sho Portofolio</div>
+          <nav>
+            <ul class="nav-ul">
+              <li class="nav li"><a href="#about">About</a></li>
+              <li class="nav li"><a href="#skill">Skills</a></li>
+              <li class="nav li"><a href="#works">Works</a></li>
+              <li class="nav li"><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <!-- ハンバーガーメニュー -->
+          <div class="btn-trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+    </div>
+      <div id="header-img">
+        <img src="img/header-image.jpg" alt="">
+        <h1>Sho</h1>
+      </div>
+
+    <!-- メニュー -->
+      <nav class="menu-container">
+        <ul class="menu">
+          <li class="menu-item"><a href="#about">About</a></li>
+          <li class="menu-item"><a href="#skill">Skills</a></li>
+          <li class="menu-item"><a href="#work">Work</a></li>
+          <li class="menu-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <!-- メイン -->
+  <main>
+    
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <h2 class="fadein">About</h2>
+        <div class="fadein introduce">
+          <img src="img/author.png" alt="">
+          <div class="fadein">
+            <p>初めまして、Shoと申します。</p>
+            <p>1983年生まれ36歳、京都在住。</p>
+            <p>本職は医師です。2020年よりプログラミングの独学をスタート。現在副業でWEB系フリーランスエンジニアとして活動しています。IT技術を学び、後々は医療の世界で生かしたいです。</p>
+            <p>本業も副業も、納得のいくまでコミュニケーションをとること、時間を守ることを重視しています。</p>
+            <p>ホームページ作りを通して、皆様の活動をよりよきものにするお手伝いができればと思います。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skill -->
+    <section id="skill" class="sections">
+      <div class="container">
+        <h2 class="fadein">Skills</h2>
+        <div class="skill-items">
+          <div class="skill-item fadein">
+            <div class="skill-icon"><i class="fas fa-code fa-6x"></i></div>
+            <span>HTML/CSS</span>
+            <p>主にLP制作を承っております.。そのほか、既存のサイトの修正やレスポンシブ対応も可能です。</p>
+          </div>
+          <div class="skill-item fadein">
+            <div class="skill-icon"><i class="fab fa-js fa-6x"></i></div>
+            <span>jQuery</span>
+            <p>サイトに動きをつけることができます</p>
+          </div>
+          <div class="skill-item fadein">
+            <div class="skill-icon"><i class="fab fa-wordpress fa-6x"></i></div>
+            <span>WordPress</span>
+            <p>WordPressを利用したWebサイトを作成します。既存WordPressテーマのカスタマイズや、オリジナルのWordPressテーマ自作も可能です。</p>
+          </div>
+          <div class="skill-item fadein">
+            <div class="skill-icon"><i class="fas fa-user-md  fa-6x"></i></div>
+            <span>Medical</span>
+            <p>内科医としての経験が12年あります。</p>
+          </div>
+        </div>
+
+        <h3 class="fadein">Other Skills</h3>
+        <div class="skill-items">
+          <div class="skill-item fadein">
+            <div class="skill-icon"><i class="fas fa-bold fa-6x"></i></div>
+            <span>Bootstrap</span>
+          </div>
+          <div class="skill-item fadein">
+            <div class="skill-icon"><i class="fab fa-sass fa-6x"></i></div>
+            <span>SASS</span>
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <!-- Works -->
+    <section id="works" class="sections">
+      <div class="container">
+        <h2 class="fadein">Works</h2>
+        <div class="skill-items">
+          <div class="skill-item fadein">
+            <div class="work-icon" id="work-icon-1">
+              <img src="img/MyWordPressThemeTop.jpg" alt="">
+              <div class="mask">
+                <div class="caption">
+                  WordPress自作テーマ
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item fadein">
+            <div class="work-icon" id="work-icon-2">
+              <img src="img/MyAirbnbCopyTop.jpg" alt="">
+              <div class="mask">
+                <div class="caption">
+                  模写サイト(Airbnb)
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item fadein">
+            <div class="work-icon" id="work-icon-3">
+              <img src="img/MyTravelAgencySampleTop.png" alt="">
+              <div class="mask">
+                <div class="caption">
+                  LP自作サイト
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- お問い合わせ -->
+    <section id="contact" class="sections">
+      <div class="container">
+        <h2 class="fadein">Contact</h2>
+        <form class="formrun" action="https://form.run/api/v1/r/5d9lcdvhekzpsocygff9g63a" method="post">
+          <div class="item">
+            <input class="inputs fadein" type="text" name="name" placeholder="name">
+          </div>
+
+          <div class="item">
+            <input  class="inputs fadein" placeholder="email" name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+          </div>
+
+          <div class="item">
+            <textarea name="お問い合わせ" data-formrun-required class="inputs fadein" placeholder="message"></textarea>
+          </div>
+
+          <div class="btn-area fadein">
+            <button class="submit-btn" type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">Send Message</button>
+            <input type="reset" value="Reset">
+            </div>
+
+        </form>
+      </div>
+    </section>
+
+    <div id="copyright">© 2020 Sho</div>
+
+  </main>
+
+  <!-- Overlay -->
+  <div id="overlay">
+    <img class="overlay-wrapper" id="overlay-wrapper-1" src="img/MyWordPressTheme.png" alt="">
+    <img class="overlay-wrapper" id="overlay-wrapper-2" src="img/MyAirbnbCopy.png" alt="">
+    <img class="overlay-wrapper" id="overlay-wrapper-3" src="img/MyTravelAgencySample.png" alt="">
+    <div class="overlay-btn">
+      <span></span>
+      <span></span>
+    </div>
+  </div>    
+  
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
